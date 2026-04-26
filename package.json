@@ -1,0 +1,14 @@
+{
+  "name": "todomvc-nuxt",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
+  },
+  "devDependencies": {
+    "nuxt": "^3.13.0",
+    "@nuxtjs/google-fonts": "^3.2.0"
+  }
+}

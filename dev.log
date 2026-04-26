@@ -1,0 +1,96 @@
+
+> dev
+> nuxt dev
+
+│
+●  [32mNuxt [1m3.21.2[22m[39m[90m (with [39m[90mNitro [1m2.13.3[22m[39m[90m, Vite [1m7.3.2[22m[39m[90m and Vue [1m3.5.33[22m[39m[90m)[39m
+
+[32m  ➜ Local:   [39m [36m[4mhttp://localhost:[1m3000[22m/[24m[39m
+[90m  ➜ Network:  use [37m--host[90m to expose[39m
+
+[90m[[90mnuxt:google-fonts[90m][39m [35m◐[39m Downloading fonts...
+[90m[[90mnuxt:google-fonts[90m][39m [32m✔[39m https://fonts.googleapis.com/css2?family=DM+Serif+Display:wght@400&family=DM+Mono:wght@400;500&family=Nunito:wght@400;600;700&display=swap
+[90m[[90mnuxt:google-fonts[90m][39m [36mℹ[39m DM_Mono-normal-400-latin
+[90m[[90mnuxt:google-fonts[90m][39m [36mℹ[39m DM_Mono-normal-400
+[90m[[90mnuxt:google-fonts[90m][39m [36mℹ[39m DM_Mono-normal-500-latin
+[90m[[90mnuxt:google-fonts[90m][39m [36mℹ[39m DM_Mono-normal-500
+[90m[[90mnuxt:google-fonts[90m][39m [36mℹ[39m DM_Serif_Display-normal-400-latin
+[90m[[90mnuxt:google-fonts[90m][39m [36mℹ[39m DM_Serif_Display-normal-400
+[90m[[90mnuxt:google-fonts[90m][39m [36mℹ[39m Nunito-normal-400-cyrillic
+[90m[[90mnuxt:google-fonts[90m][39m [36mℹ[39m Nunito-normal-400
+[90m[[90mnuxt:google-fonts[90m][39m [36mℹ[39m Nunito-normal-400-latin
+[90m[[90mnuxt:google-fonts[90m][39m [32m✔[39m Download fonts completed.
+[90m[[90mnuxt:google-fonts[90m][39m 
+[33m  ➜ DevTools: [39m[2mpress [22m[32mShift[39m[2m + [22m[32mAlt[39m[2m + [22m[32mD[39m[2m in the browser (v3.2.4)[22m
+
+[32m✔[39m Vite client built in 61ms
+[32m✔[39m Vite server built in 176ms
+[90m[[90mnitro[90m][39m [32m✔[39m Nuxt Nitro server built in 3022ms
+[36mℹ[39m Vite server warmed up in 2ms
+[36mℹ[39m Vite client warmed up in 3ms
+[36mℹ[39m nuxt.config.ts updated. Restarting Nuxt...
+[33m  ➜ DevTools: [39m[2mpress [22m[32mShift[39m[2m + [22m[32mAlt[39m[2m + [22m[32mD[39m[2m in the browser (v3.2.4)[22m
+
+[32m✔[39m Vite client built in 71ms
+[32m✔[39m Vite server built in 959ms
+[90m[[90mnitro[90m][39m [32m✔[39m Nuxt Nitro server built in 1178ms
+[36mℹ[39m Vite server warmed up in 1ms
+[36mℹ[39m Vite client warmed up in 2ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mtypes/plugins.d.ts[39m in 2397.27ms
+[32m✔[39m Vite server hmr 408 files in 845.147ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mtypes/plugins.d.ts[39m in 1049.9ms
+[36mℹ[39m nuxt.config.ts updated. Restarting Nuxt...
+[33m  ➜ DevTools: [39m[2mpress [22m[32mShift[39m[2m + [22m[32mAlt[39m[2m + [22m[32mD[39m[2m in the browser (v3.2.4)[22m
+
+
+[43m[30m WARN [39m[49m Slow module [36m@nuxt/devtools[39m took [36m6271.19ms[39m to setup.
+
+[32m✔[39m Vite client built in 153ms
+[32m✔[39m Vite server built in 2225ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mplugins.server.mjs[39m in 1509.37ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mplugins.client.mjs[39m in 1633.01ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mtypes/plugins.d.ts[39m in 1691.05ms
+[90m[[90mnitro[90m][39m [32m✔[39m Nuxt Nitro server built in 7024ms
+[36mℹ[39m Vite server warmed up in 2ms
+[36mℹ[39m Vite client warmed up in 4ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mtypes/plugins.d.ts[39m in 599.85ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mplugins.client.mjs[39m in 621.58ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mtypes/plugins.d.ts[39m in 625.32ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mruntime.vue-devtools-client.sZWMjwtkRohMjvEwOF3o3SgOI15tLTRONQ3fgKxH2mU.js[39m in 4095.63ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mplugins.server.mjs[39m in 637.41ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mplugins.client.mjs[39m in 1799.02ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mtypes/plugins.d.ts[39m in 1772.56ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mplugins.server.mjs[39m in 876.33ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mplugins.client.mjs[39m in 1060.73ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mtypes/plugins.d.ts[39m in 966.12ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mplugins.server.mjs[39m in 543.19ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mplugins.client.mjs[39m in 975.36ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mtypes/plugins.d.ts[39m in 1269.51ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mapp-component.mjs[39m in 770.3ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mtypes/app.config.d.ts[39m in 770.28ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mapp.config.mjs[39m in 770.4ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mtypes/app-defaults.d.ts[39m in 770.63ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mtypes/build.d.ts[39m in 775.1ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mnitro.client.mjs[39m in 773.78ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mcss.mjs[39m in 773.9ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mfetch.mjs[39m in 774.26ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36merror-component.mjs[39m in 775.25ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mglobal-polyfills.mjs[39m in 776.12ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mlayouts.mjs[39m in 776.76ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mmiddleware.mjs[39m in 776.88ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mplugins.server.mjs[39m in 1629.61ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mplugins.client.mjs[39m in 2063ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mtypes/plugins.d.ts[39m in 2707.83ms
+[36mℹ[39m [32mhmr update [39m[2m/app.vue[22m
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mruntime.vue-devtools-client.sZWMjwtkRohMjvEwOF3o3SgOI15tLTRONQ3fgKxH2mU.js[39m in 693.12ms
+[36mℹ[39m nuxt.config.ts updated. Restarting Nuxt...
+[33m  ➜ DevTools: [39m[2mpress [22m[32mShift[39m[2m + [22m[32mAlt[39m[2m + [22m[32mD[39m[2m in the browser (v3.2.4)[22m
+
+[32m✔[39m Vite client built in 96ms
+[32m✔[39m Vite server built in 1230ms
+[90m[[90mnitro[90m][39m [32m✔[39m Nuxt Nitro server built in 2452ms
+[36mℹ[39m Vite server warmed up in 5ms
+[36mℹ[39m Vite client warmed up in 7ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mplugins.client.mjs[39m in 1295.09ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mtypes/plugins.d.ts[39m in 1464.08ms
+[90m[[90mnuxt[90m][39m [36mℹ[39m Compiled [36mtypes/plugins.d.ts[39m in 769.07ms

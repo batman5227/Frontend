@@ -1,0 +1,62 @@
+npm warn cleanup Failed to remove some directories [
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\D:\\todomvc-nuxt\\node_modules\\nuxt',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir 'D:\todomvc-nuxt\node_modules\nuxt\dist\app'] {
+npm warn cleanup       errno: -4051,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'D:\\todomvc-nuxt\\node_modules\\nuxt\\dist\\app'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     'D:\\todomvc-nuxt\\node_modules\\nuxt',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir 'D:\todomvc-nuxt\node_modules\nuxt\dist\app'] {
+npm warn cleanup       errno: -4051,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'D:\\todomvc-nuxt\\node_modules\\nuxt\\dist\\app'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\D:\\todomvc-nuxt\\node_modules\\yaml',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir 'D:\todomvc-nuxt\node_modules\yaml\dist'] {
+npm warn cleanup       errno: -4051,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'D:\\todomvc-nuxt\\node_modules\\yaml\\dist'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     '\\\\?\\D:\\todomvc-nuxt\\node_modules\\csso\\node_modules\\css-tree',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir 'D:\todomvc-nuxt\node_modules\csso\node_modules\css-tree\lib'] {
+npm warn cleanup       errno: -4051,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'D:\\todomvc-nuxt\\node_modules\\csso\\node_modules\\css-tree\\lib'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     'D:\\todomvc-nuxt\\node_modules\\csso\\node_modules\\css-tree',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir 'D:\todomvc-nuxt\node_modules\csso\node_modules\css-tree\lib'] {
+npm warn cleanup       errno: -4051,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'D:\\todomvc-nuxt\\node_modules\\csso\\node_modules\\css-tree\\lib'
+npm warn cleanup     }
+npm warn cleanup   ],
+npm warn cleanup   [
+npm warn cleanup     'D:\\todomvc-nuxt\\node_modules\\yaml',
+npm warn cleanup     [Error: ENOTEMPTY: directory not empty, rmdir 'D:\todomvc-nuxt\node_modules\yaml\dist'] {
+npm warn cleanup       errno: -4051,
+npm warn cleanup       code: 'ENOTEMPTY',
+npm warn cleanup       syscall: 'rmdir',
+npm warn cleanup       path: 'D:\\todomvc-nuxt\\node_modules\\yaml\\dist'
+npm warn cleanup     }
+npm warn cleanup   ]
+npm warn cleanup ]
+npm error code ENOTEMPTY
+npm error syscall rmdir
+npm error path D:\todomvc-nuxt\node_modules\csso\node_modules\css-tree\lib
+npm error errno -4051
+npm error ENOTEMPTY: directory not empty, rmdir 'D:\todomvc-nuxt\node_modules\csso\node_modules\css-tree\lib'
+npm error A complete log of this run can be found in: C:\Users\HP\AppData\Local\npm-cache\_logs\2026-04-26T13_15_42_273Z-debug-0.log
