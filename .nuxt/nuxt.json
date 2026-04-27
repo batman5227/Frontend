@@ -1,7 +1,7 @@
 {
-  "_hash": "xSxjaq8i2iyDsNKI_NS1xdIMFjrx1R1rEtjZWT0odH0",
+  "_hash": "nU0HxVyQtoivMImo0q99eGSjGYThrvkCvoP48sPxTwg",
   "project": {
-    "rootDir": "D:/todomvc-nuxt"
+    "rootDir": "D:/todomvc-nuxt/Frontend"
   },
   "versions": {
     "nuxt": "3.21.2"

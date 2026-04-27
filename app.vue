@@ -8,6 +8,8 @@ const {
   activeCount,
   completedCount,
   allDone,
+  loading,
+  error,
   addTodo,
   removeTodo,
   toggleTodo,
@@ -37,8 +39,16 @@ const filters: { label: string; value: Filter }[] = [
     <!-- Header -->
     <header class="app-header">
       <h1>todos</h1>
-      <p>Double-clic pour éditer une tâche</p>
+      <p>Double-clic sur une tâche pour éditer</p>
     </header>
+
+    <!-- Status -->
+    <div v-if="loading" class="status-message loading">
+      Chargement des tâches…
+    </div>
+    <div v-else-if="error" class="status-message error">
+      {{ error }}
+    </div>
 
     <!-- Card -->
     <div class="todo-card">
@@ -119,7 +129,7 @@ const filters: { label: string; value: Filter }[] = [
 
     <!-- Credits -->
     <p class="credits">
-      Fait avec Nuxt 3 · Inspiré de
+      Fait avec du Nuxt 3 par Yann· Inspiré de
       <a href="https://todomvc.com" target="_blank" rel="noopener">TodoMVC</a>
     </p>
   </div>
