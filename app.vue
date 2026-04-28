@@ -16,7 +16,12 @@ const {
   toggleAll,
   updateTodo,
   clearCompleted,
+  fetchTodos,
 } = useTodos()
+
+onMounted(() => {
+  fetchTodos()
+})
 
 const newTodo = ref('')
 

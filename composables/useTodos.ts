@@ -45,10 +45,6 @@ export function useTodos() {
     }
   }
 
-  onMounted(() => {
-    fetchTodos()
-  })
-
   const filteredTodos = computed(() => {
     if (filter.value === 'active') return todos.value.filter(t => !t.completed)
     if (filter.value === 'completed') return todos.value.filter(t => t.completed)
