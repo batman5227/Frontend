@@ -20,7 +20,7 @@ jobs:
         cache: npm
 
     - name: Install dependencies
-      run: ci
+      run: npm ci
 
     - name: Build Nuxt app
       run: npm run build
