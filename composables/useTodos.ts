@@ -6,7 +6,6 @@ export interface Todo {
   completed: boolean
 }
 
-// Backend de DTO
 interface TodoResponse {
   id: string
   name: string
