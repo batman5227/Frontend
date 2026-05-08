@@ -1,6 +1,8 @@
 export type Filter = 'all' | 'active' | 'completed'
 
+
 export interface Todo {
+
   id: string
   text: string
   completed: boolean
@@ -22,6 +24,16 @@ function mapFromBackend(item: TodoResponse): Todo {
   }
 }
 
+import { computed } from 'vue'
+
+declare const useRuntimeConfig: () => { public: { apiBase: string } }
+declare function useState<T>(key: string, init: () => T): { value: T }
+declare const $fetch: {
+  <T>(input: string, init?: { method?: string; body?: unknown }): Promise<T>
+  (input: string, init?: { method?: string; body?: unknown }): Promise<unknown>
+}
+
+
 export function useTodos() {
   const config = useRuntimeConfig()
   const apiBase = config.public.apiBase as string
@@ -30,6 +42,7 @@ export function useTodos() {
   const filter = useState<Filter>('filter', () => 'all')
   const loading = useState<boolean>('todos-loading', () => false)
   const error = useState<string | null>('todos-error', () => null)
+
 
   async function fetchTodos() {
     loading.value = true
@@ -45,13 +58,15 @@ export function useTodos() {
   }
 
   const filteredTodos = computed(() => {
-    if (filter.value === 'active') return todos.value.filter(t => !t.completed)
-    if (filter.value === 'completed') return todos.value.filter(t => t.completed)
+    if (filter.value === 'active') return todos.value.filter((t: Todo) => !t.completed)
+    if (filter.value === 'completed') return todos.value.filter((t: Todo) => t.completed)
     return todos.value
   })
 
-  const activeCount = computed(() => todos.value.filter(t => !t.completed).length)
-  const completedCount = computed(() => todos.value.filter(t => t.completed).length)
+  const activeCount = computed(() => todos.value.filter((t: Todo) => !t.completed).length)
+  const completedCount = computed(() => todos.value.filter((t: Todo) => t.completed).length)
+
+
   const allDone = computed(() => todos.value.length > 0 && activeCount.value === 0)
 
   async function addTodo(text: string) {
@@ -78,9 +93,14 @@ export function useTodos() {
   }
 
   async function toggleTodo(id: string) {
+    // Refresh first to ensure we have the latest completion state
+    await fetchTodos()
+
     const todo = todos.value.find(t => t.id === id)
     if (!todo) return
+
     const endpoint = todo.completed ? 'incomplete' : 'complete'
+
     try {
       await $fetch(`${apiBase}/api/todo/${id}/${endpoint}`, { method: 'PATCH' })
       await fetchTodos()
@@ -88,6 +108,10 @@ export function useTodos() {
       error.value = e?.message || 'Erreur lors de la mise à jour'
     }
   }
+
+
+
+
 
   async function toggleAll() {
     const done = allDone.value
